@@ -33,6 +33,9 @@ Resource: Incident Response - https://csrc.nist.gov/projects/incident-response
 A star schema organizes analytical data around a central fact table linked directly to dimension tables. For daily regional 5G usage reports, the fact table could store measures such as data volume, while dimensions describe the region, date, and service type. A snowflake schema normalizes dimension data into additional related tables, which can reduce redundancy but may require more joins. A star schema is often a practical choice for straightforward reporting because its structure is simpler for analysts to understand and query.
 
 Resource: Star schema - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
+
 # Misconception in My Track
+A common misconception in networking is that using 5G automatically guarantees reliable and uninterrupted communication. In reality, performance depends on factors such as network coverage, congestion, interference, infrastructure resilience, and configuration. Network slicing can help support different service requirements, but it cannot eliminate every failure. Emergency communications therefore require careful planning, monitoring, redundancy, and security measures in addition to 5G technology.
 
 # Open Question
+How can a 5G operator maintain reliable communication for emergency responders during a major network outage or cyberattack while ensuring that critical services receive priority without compromising security?
