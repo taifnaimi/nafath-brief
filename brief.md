@@ -20,11 +20,19 @@ An offline-capable mobile app should allow users to access locally stored data w
 
 Resource: Build an offline-first app - https://developer.android.com/topic/architecture/data-layer/offline-first
 # Networking
+5G network slicing allows an operator to create multiple virtual networks on shared physical infrastructure, each configured for different service requirements. For emergency response teams, a dedicated slice can be designed to support critical communications with appropriate quality-of-service targets, capacity, and reliability. This can help separate emergency traffic from ordinary consumer traffic during periods of congestion. However, slicing alone cannot guarantee uninterrupted service; effective resource management, security, monitoring, and resilient network design are also necessary.
+
+Resource: Network softwarization in IMT-2020 networks - https://www.itu.int/rec/T-REC-Y.3112/en
 
 # Cybersecurity
+Incident response is the process an organization follows to manage cybersecurity incidents and reduce their impact. Key activities include preparing response plans, detecting and analyzing suspicious events, containing threats, removing their causes, and recovering affected systems. After an incident, teams should review what happened and improve their procedures. For a 5G service supporting emergency responders, a well-prepared response helps limit disruption, protect sensitive information, and restore critical communications as safely and quickly as possible.
+
+Resource: Incident Response - https://csrc.nist.gov/projects/incident-response
 
 # Data
+A star schema organizes analytical data around a central fact table linked directly to dimension tables. For daily regional 5G usage reports, the fact table could store measures such as data volume, while dimensions describe the region, date, and service type. A snowflake schema normalizes dimension data into additional related tables, which can reduce redundancy but may require more joins. A star schema is often a practical choice for straightforward reporting because its structure is simpler for analysts to understand and query.
 
+Resource: Star schema - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 # Misconception in My Track
 
 # Open Question
